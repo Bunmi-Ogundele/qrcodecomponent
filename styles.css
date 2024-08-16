@@ -1,0 +1,37 @@
+:root {
+    --slate: hsl(212, 45%, 89%);
+    --dark-gray: hsl(216, 15%, 48%);
+    --blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--slate);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin: 1.25rem;
+    display: grid;
+    place-items: center;
+}
+
+.code {
+    background-color: white;
+    border-radius: 0.90rem;
+    width: 300px;
+    height: 450px;
+    padding: 1.25rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: var(--blue);
+}
+
+.code img {
+    border-radius: 0.90rem;
+    width: 300px;
+}
+
+.code p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
